@@ -1,0 +1,45 @@
+$azul: #2E4052;
+$coltext: #BDD9BF;
+$amarillo: #FFC857;
+$guinda: #412234;
+
+body{
+  display: grid;
+}
+header{
+  display: grid;
+  grid-template: 300px / 1fr 1fr 1fr;
+  justify-items: center;  
+  gap: 15px;
+  a{
+    img{
+      width: 200px;
+      grid-template-columns: 1 / span 1;
+      }
+  }
+}
+
+h2{
+  justify-self: center;
+  color: $coltext;
+  background-color: $azul;
+  padding: 20px
+}
+.datos{
+  background-color: $amarillo;
+.campo{
+  background-color: $guinda;
+}
+}
+.cuenta{
+  border: 2px;
+  border-style: solid;
+}
+.cont{
+  display: grid;
+  grid-template-columns: 1fr;
+  .cuenta{
+    border: 2px;
+    border-style: solid;
+  }
+  }

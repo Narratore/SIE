@@ -1,0 +1,35 @@
+body {
+  display: grid; }
+
+header {
+  display: grid;
+  grid-template: 300px / 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 15px; }
+  header a img {
+    width: 200px;
+    grid-template-columns: 1 / span 1; }
+
+h2 {
+  justify-self: center;
+  color: #BDD9BF;
+  background-color: #2E4052;
+  padding: 20px; }
+
+.datos {
+  background-color: #FFC857; }
+  .datos .campo {
+    background-color: #412234; }
+
+.cuenta {
+  border: 2px;
+  border-style: solid; }
+
+.cont {
+  display: grid;
+  grid-template-columns: 1fr; }
+  .cont .cuenta {
+    border: 2px;
+    border-style: solid; }
+
+/*# sourceMappingURL=estilos.css.map */
